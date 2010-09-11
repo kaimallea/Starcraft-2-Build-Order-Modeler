@@ -377,6 +377,14 @@ BuildOrder.prototype.validate = function(x) {
         }
     }
     
+    // Zerg cannot build structures without supply via drones
+    // TODO: Keep track of individual unit counts
+    if (this.race === "zerg" && objtype === "structure") {
+        if (this.total_cost.supply.used === 0) {
+            err("You must spawn more Drones");
+        }
+    }
+    
     return o;
 }
 
