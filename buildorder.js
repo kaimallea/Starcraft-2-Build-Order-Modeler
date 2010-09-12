@@ -954,14 +954,14 @@ Protoss.prototype.upgrades = {
         "prerequisite": "Robotics Bay",
         "uid": "052"
     },
-    "Grativic Booster": {
+    "Gravitic Booster": {
         "mineral": "100",
         "vespene": "100",
         "build_time": "110",
         "prerequisite": "Robotics Bay",
         "uid": "053"
     },
-    "Grativic Drive": {
+    "Gravitic Drive": {
         "mineral": "100",
         "vespene": "100",
         "build_time": "80",
