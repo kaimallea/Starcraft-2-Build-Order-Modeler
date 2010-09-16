@@ -400,6 +400,11 @@ BuildOrder.prototype.build = function(name) {
         return;
     }
     
+    // TODO: Attempt to display an accurate time-elapsed calculation by
+    // 'folding' time. Will move away from a linear array in favor of 
+    // multi-dimensional which groups objects (in order) into 
+    // inner-arrays if they can be built simultaneously.
+    
     // Passed validation; add string to build order array
     this.build_order.push(name);
     
