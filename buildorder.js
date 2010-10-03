@@ -510,7 +510,7 @@ Protoss.prototype.units = {
         "supply": "2",
         "armor": "0",
         "energy": "50",
-        "build_time": "33",
+        "build_time": "38",
         "vespene": "0",
         "uid": "002"
     },
@@ -1074,7 +1074,7 @@ Terran.prototype.units = {
         "supply": "1",
         "armor": "0",
         "energy": "0",
-        "build_time": "40",
+        "build_time": "45",
         "prerequisite": "Tech Lab",
         "vespene": "50",
         "uid": "061"
@@ -1242,7 +1242,7 @@ Terran.prototype.structures = {
     "Bunker": {
         "mineral": "100",
         "vespene": "0",
-        "build_time": "30",
+        "build_time": "35",
         "prerequisite": "Barracks",
         "uid": "078"
     },
